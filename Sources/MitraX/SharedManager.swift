@@ -105,7 +105,7 @@ public final class SharedManager {
             } else { // Recycle revoke conditions
                 // Bring the size of the revoke condition array to the size of the borrowing array increased by 1
                 if revokeConditions.count <= borrowings.count {
-                    (revokeConditions.count...(borrowings.count + 1))
+                    (revokeConditions.count..<(borrowings.count + 1))
                         .forEach { _ in
                             revokeConditions.append(RevokeCondition())
                         }

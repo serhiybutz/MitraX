@@ -12,7 +12,7 @@ let package = Package(
             targets: ["MitraX"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/SergeBouts/XConcurrencyKit.git", from: "0.1.0"),
+        .package(url: "https://github.com/SerhiyButz/XConcurrencyKit.git", from: "0.2.0"),
     ],
     targets: [
         .target(

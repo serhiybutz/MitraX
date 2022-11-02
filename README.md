@@ -3,21 +3,21 @@
 </p>
 
 
-<h1><a href="https://github.com/SergeBouts/MitraX">MitraX</a></h1>
+<h1><a href="https://github.com/SerhiyButz/MitraX">MitraX</a></h1>
 
-The *MitraX* package provides a *shared-memory* synchronization manager (*Shared Manager*) that implements a [*mutex-to-operation* strategy](https://sergebouts.github.io/swift-shared-memory-manager/#mutex-to-operation-strategy) (as opposed to the traditional [*mutex-to-memory* strategy](https://sergebouts.github.io/swift-shared-memory-manager/#mutex-to-memory-strategy)). It can be thought of as an efficient automatically provided *safety net* for *shared-memory* operations and is a breeze to work with.
+The *MitraX* package provides a *shared-memory* synchronization manager (*Shared Manager*) that implements a [*mutex-to-operation* strategy](https://serhiybutz.github.io/swift-shared-memory-manager/#mutex-to-operation-strategy) (as opposed to the traditional [*mutex-to-memory* strategy](https://serhiybutz.github.io/swift-shared-memory-manager/#mutex-to-memory-strategy)). It can be thought of as an efficient automatically provided *safety net* for *shared-memory* operations and is a breeze to work with.
 
 
 <p>
 <img src="https://img.shields.io/badge/Swift-5.1-orange" alt="Swift" />
 <img src="https://img.shields.io/badge/platform-macOS%20|%20iOS-orange.svg" alt="Platform" />
 <img src="https://img.shields.io/badge/Swift%20Package%20Manager-compatible-orange" alt="SPM" />
-<a href="https://github.com/SergeBouts/MitraX/blob/master/LICENSE">
+<a href="https://github.com/SerhiyButz/MitraX/blob/master/LICENSE">
 <img src="https://img.shields.io/badge/licence-MIT-orange" alt="License" />
 </a>
 </p>
 
-This is an alternative implementation of the original [Mitra](https://github.com/SergeBouts/Mitra) module.  For more documentation, see [here](https://github.com/SergeBouts/Mitra).
+This is an alternative implementation of the original [Mitra](https://github.com/SerhiyButz/Mitra) module.  For more documentation, see [here](https://github.com/SerhiyButz/Mitra).
 
 ## Installation
 
@@ -26,7 +26,7 @@ This is an alternative implementation of the original [Mitra](https://github.com
 1. Go to "File" -> "Swift Packages" -> "Add Package Dependency"
 2. Paste MitraX repository URL into the search field:
 
-`https://github.com/SergeBouts/MitraX.git`
+`https://github.com/SerhiyButz/MitraX.git`
 
 3. Click "Next"
 
